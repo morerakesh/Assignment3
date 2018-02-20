@@ -1,0 +1,84 @@
+body{
+	font-family:'Open Sans',serif;
+	padding-top:54px;
+	color:#868e96
+	}
+	
+@media (min-width:992px){
+	body{
+		padding-top:0;
+		padding-left:1rem
+		}
+	}
+	
+h1,h2,h3,h4,h5,h6{
+	font-family:'Saira Extra Condensed',serif;
+	font-weight:700;
+	color:#343a40
+	}
+	
+h1{
+	font-size:6rem;
+	line-height:5.5rem
+	}
+	
+h2{
+	font-size:3.5rem
+	}
+	
+.myFont{
+	font-size:1em;
+	color:black;
+}
+
+	
+section.profile-section{
+	border-bottom:1px solid #dee2e6;
+	padding-top:5rem!important;
+	padding-bottom:5rem!important
+	}
+	
+section.profile-section {
+	min-width:none
+	}
+
+@media (min-width:768px){
+	section.profile-section{
+		min-height:100vh
+		}
+	
+	section.profile-section{
+		min-width:18rem
+		}
+	}
+	
+@media (min-width:992px){
+	section.profile-section{
+		padding-top:15rem!important;
+		padding-bottom:3rem!important
+		}
+	}
+	
+@media (max-width:991px){
+	section.profile-section{
+		padding-top:1rem!important;
+		padding-bottom:1rem!important
+		}
+	}	
+
+.bg-primary{
+	background-color:#DAE2E3!important
+	}
+	
+.text-primary{
+	color:#bd5d38!important
+	}
+	
+a{
+	color:#bd5d38
+	}
+	
+a:active,a:focus,a:hover{
+	color:#824027
+	}
+	
